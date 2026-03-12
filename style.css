@@ -1,0 +1,97 @@
+/* Custom Styles for Sarah's Project */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Background gradient for a modern UX feel */
+.main-wrapper {
+    background: linear-gradient(135deg, #ee4292 0%, #fddaeb 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.wisdom-card {
+    max-width: 500px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95); /* Semi-transparent */
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.app-title {
+    color: #ee4292;
+    font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Custom Buttons */
+.btn-primary-custom {
+    background-color: #ee4292;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+.btn-primary-custom:hover {
+    background-color: #d1367f;
+    color: white;
+}
+
+.btn-outline-custom {
+    border: 2px solid #ee4292;
+    color: #ee4292;
+    font-weight: 600;
+}
+
+.btn-outline-custom:hover {
+    background-color: #ee4292;
+    color: white;
+}
+
+/* Divider Styling */
+.divider {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    line-height: 0.1em;
+    margin: 30px 0;
+}
+
+.divider span {
+    background: #fff;
+    padding: 0 10px;
+    color: #aaa;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Result Box */
+#advice-display {
+    min-height: 100px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result-text {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #333;
+    line-height: 1.5;
+}
+
+footer p {
+    color: white;
+    font-size: 0.8rem;
+}

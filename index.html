@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Advice Site | Sarah Neumann</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="container d-flex flex-column align-items-center justify-content-center min-vh-100">
+        
+        <div class="wisdom-card shadow-lg p-5">
+            <header class="text-center mb-4">
+                <h1 class="app-title">Get some Advice!🌺</h1>
+                <p class="subtitle">Search a word or get a random insight</p>
+            </header>
+
+            <div class="search-section">
+                <div class="input-group mb-3">
+                    <input type="text" id="userInput" class="form-control" placeholder="Type 'life', 'friend', 'work' ect ...">
+                    <div class="input-group-append">
+                        <button id="searchBtn" class="btn btn-primary-custom">Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"><span>OR</span></div>
+
+            <button id="randomBtn" class="btn btn-outline-custom btn-block mb-4">Give Me Random Advice</button>
+
+            <div id="advice-display" class="text-center">
+                <p id="result-text">Your advice will appear here!</p>
+            </div>
+        </div>
+
+        <footer class="mt-4 text-white-50 text-center">
+            <p>Sarah Neumann &bull; CGT 27208 &bull; Advice Slip API</p>
+        </footer>
+    </div>
+</div>
+
+<script src="api.js"></script>
+</body>
+</html>
